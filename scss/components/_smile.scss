@@ -1,0 +1,40 @@
+ 
+.smile {
+    height: 60px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    @extend %transition;
+    &:hover {
+        background-color: orange; 
+    }
+    &__eyes{ 
+
+    }
+    &__eye {     
+        display: inline-block;   
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: black;        
+        &:first-child{
+            margin-right: 20px;
+        }       
+    }   
+    &__lips {
+        height:20px;
+        width: 10px;
+        border-radius: 15px 0 0 15px;
+        border-top: 2px solid #000;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;        
+        transform: rotate(-90deg);
+        &:hover {           
+            transform: rotate(90deg);
+        }
+    } 
+}

@@ -1,0 +1,20 @@
+{
+  "name": "alisa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch ./scss/style.scss ./scss/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuri-9/Alisa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuri-9/Alisa/issues"
+  },
+  "homepage": "https://github.com/Yuri-9/Alisa#readme"
+}
